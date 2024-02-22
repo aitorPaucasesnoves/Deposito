@@ -1,14 +1,22 @@
 package cuentas;
+/**
+ * Clase Principal: Empieza el proyecto
+ * @author MCPRO
+ * @version (versión del programa)
+ * @since fecha de realización del proyecto 22/02/2024
+ */
 
-
-import cuentas.CCuenta;
-import cuentas.CCuenta;
 
 public class Main {
 
     public static void main(String[] args) {
         operativa_cuenta(5000);
     }
+    /**
+     * 
+     * 
+     * @param CANTIDAD No lo usamos para nada. 
+     */
 
     public static void operativa_cuenta(float CANTIDAD) {
         CCuenta cuenta1;

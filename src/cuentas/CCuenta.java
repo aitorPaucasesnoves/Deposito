@@ -1,4 +1,9 @@
 package cuentas;
+/**
+ * @author MCPRO
+ * @version (versión del programa)
+ * fecha de realización del proyecto 22/02/2024
+ */
 
 public class CCuenta {
 
@@ -79,7 +84,11 @@ public class CCuenta {
     {
         return getSaldo();
     }
-
+ /**
+  * 
+  * @param cantidad 
+     * @throws java.lang.Exception 
+  */
     public void ingresar(double cantidad) throws Exception
     {
         if (cantidad<0)
